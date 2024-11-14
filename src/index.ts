@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // Rutas
-app.use("/api/gzstore", productRoutes
+app.use("/api/products", productRoutes
 
 );
 
@@ -27,7 +27,7 @@ AppDataSource.initialize()
       console.log(`Servidor corriendo en http://localhost:${PORT}\n`);
 
       console.log(`Endpoints:`);
-      console.log(`API gzstore http://localhost:${PORT}/api/gzstore`);
+      console.log(`API products http://localhost:${PORT}/api/products`);
 
       console.log(`Documentación:`);
       console.log(`Swagger en http://localhost:${PORT}/api-docs`);
